@@ -8,9 +8,14 @@ terraform apply
 set of machines IPs:
 
 Instance Name	    Private IP	   Public IP
+============================================
+
 VPC NAT	          10.0.0.210	   52.16.161.59
+
 Web Server 1    	10.0.0.37	     52.16.185.18
+
 DB Server 1	      10.0.1.22 	   n/a
+
 (Obviously, with different values).
 
 
