@@ -1,0 +1,5 @@
+terraform.tfstate
+terraform.tfstate.backup
+22key.pem
+terraform*
+.terraform*
