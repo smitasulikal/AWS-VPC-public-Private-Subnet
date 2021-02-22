@@ -98,7 +98,7 @@ resource "aws_route_table_association" "private" {
 resource "aws_security_group" "nat" {
   name        = "${var.environment}-NAT-sg"
   description = "NAT security group for NAT instance"
-  
+
   vpc_id      = aws_vpc.vpc.id
   depends_on  = [aws_vpc.vpc]
   ingress {
